@@ -1,0 +1,34 @@
+.publish-time{
+    color: gray;
+}
+
+.destination{
+      font-style: italic;
+    color: orange;
+}
+
+.description{
+    font-style: bold;
+}
+
+#florence{
+    color: green;
+}
+
+#beijing{
+    color: red;
+}
+
+#seoul{
+    color: blue;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#image-round{
+    border-radius: 50%;
+}

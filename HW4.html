@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<!-- SKELETON OF A BASIC WEB PAGE USING ONLY BASIC HTML WE SHOULD ALL BE FAMILIAR WITH SO FAR -->
+<html lang="en">
+  <head>
+    <title>Web Production 1</title>
+<!--     The meta elements of this document describe the document and its keywords.-->
+    <meta charset="utf-8">
+<!-- https://www.w3schools.com/charsets/ref_html_utf8.asp-->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    https://www.w3schools.com/css/css_rwd_viewport.asp-->
+    <meta name="description" content="Home page for Web Production 1">
+    <meta name="author" content="Emmanuel Unaegbu">
+<!--   The meta elements of this document describe the document and its keywords.-->
+  <link rel="shortcut icon" href="img/red.png">
+<!--   https://www.w3schools.com/icons/-->
+<style type="text/css">
+body{
+  background-color: DeepSkyBlue
+;
+
+
+  font-style: sans-serif;
+}
+</style>
+</head>
+
+  <body>
+  <main>
+    <img src="citybanner.jpg" alt="Skyline" class="responsive" width="500px" height="276px">
+<!--     basic responsive image setting width: 100%-->
+  </main>
+
+<!-- https://www.w3schools.com/tags/tag_nav.asp-->
+
+     <nav>
+         <!-- navigation -->
+
+<!-- https://www.w3schools.com/tags/tag_header.asp-->
+<header>
+<!--The most common way of adding navigation elements to websites are through using unordered lists (<ul></ul>).-->
+<!-- https://www.w3schools.com/tags/tag_ul.asp -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#project">Projects</a></li>
+
+      </ul>
+  </header>
+    </nav>
+<!--     Inside ul tag we added li tag and inside each of li tags we added an anchor(a) tag.
+the a tags are our links in our navigation menu. As you can see each one has a text inside for each of our sections and also they have a href attribute.
+
+For each href attribute we gave it a name that starts with a hash(#). It's important when we want to click on each of those links and expect the page to navigate to the corresponding section in our page.
+
+The anchor tag makes each list element a link and passing in the #id_name lets us target different sections by ID, just like in CSS ** new feature in HTML5 -->
+
+    <!-- home -->
+    </header>
+<!--     https://www.w3schools.com/tags/tag_section.asp-->
+ <section id="home">
+<!--  https://www.w3schools.com/tags/tag_video.asp-->
+<video width="320" height="240" controls>
+  <source src="leaves.mp4">
+</video>
+<!-- https://www.w3schools.com/html/html_tables.asp-->
+
+ </section>
+
+    <!-- About -->
+    <section id="about">
+      <h1>Emmanuel Unaegbu</h1>
+<!--       https://www.w3schools.com/html/html_paragraphs.asp-->
+<p>I am a senior at Hunter College. I am currently majoring in Media Studies and also Minor in Computer Science.
+
+    </section>
+
+    <!-- Project -->
+    <section id="project">
+
+      <h1>City Video and Sound</h1>
+      <p>
+        <a href="https://manny919.github.io/Homework-3/"><img src="city.jpg" style="width:300px;height:200px;"></a>
+      </p>
+
+      <h1>Slideshow</h1>
+      <p>NYC Photography <a a href="https://manny919.github.io/NYC_Photography/">click Here to go to slideshow</a></p>
+    </section>
+
+
+
+
+
+  </body>
+  </html>
